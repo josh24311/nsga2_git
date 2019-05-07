@@ -59,13 +59,11 @@ void func(population *pop_ptr)
         // First fitness function  //f[0]:delta, f[1];gamma, f[2]:vega
 
         //3opt
-		//printf("three input x : %lf  %lf %lf\n",(double)x[0],(double)x[1],(double)x[2]);
+		/*
         f[0] = fabs(value((double)x[0],0)+value((double)x[1],0)+value((double)x[2],0));
-		//printf("after setting delta  for i = %d\n",i);
         f[1] = fabs(value((double)x[0],1)+value((double)x[1],1)+value((double)x[2],1));
-		//printf("after setting gamma  for i = %d\n",i);
         f[2] = fabs(value((double)x[0],2)+value((double)x[1],2)+value((double)x[2],2));
-		//printf("after setting vega  for i = %d\n",i);
+		*/
         //4opt
         /*
         f[0] = fabs(value((double)x[0],0)+value((double)x[1],0)+value((double)x[2],0)+value((double)x[3],0));
@@ -79,11 +77,11 @@ void func(population *pop_ptr)
         f[2] = fabs(value((double)x[0],2)+value((double)x[1],2)+value((double)x[2],2)+value((double)x[3],2)+value((double)x[4],2));
         */
         //6opt
-        /*
+        
         f[0] = fabs(value((double)x[0],0)+value((double)x[1],0)+value((double)x[2],0)+value((double)x[3],0)+value((double)x[4],0)+value((double)x[5],0));
         f[1] = fabs(value((double)x[0],1)+value((double)x[1],1)+value((double)x[2],1)+value((double)x[3],1)+value((double)x[4],1)+value((double)x[5],1));
         f[2] = fabs(value((double)x[0],2)+value((double)x[1],2)+value((double)x[2],2)+value((double)x[3],2)+value((double)x[4],2)+value((double)x[5],2));
-        */
+        
         //7opt
         /*
         f[0] = fabs(value((double)x[0],0)+value((double)x[1],0)+value((double)x[2],0)+value((double)x[3],0)+value((double)x[4],0)+value((double)x[5],0)+value((double)x[6],0));
