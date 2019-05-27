@@ -95,9 +95,9 @@ typedef unsigned int bool;
 #define true 1
 double d1,d2,del,gam,veg;
 double r = 0.01035;
-double todate = 20.0;//距到期日 交易日11/1
+double todate = 15.0;//距到期日 交易日11/1
 double totday = 252.0;
-double t = 18.0/252.0;//11/2: 19.0， 11/3: 18.0
+double t = 15.0/252.0;//11/2: 19.0， 11/3: 18.0
 double q = 0.0;
 double S0 = 9906.59;//11/2:9844.74，11/5:9906.59
 //0401 因增加short運算 由[16] 改為 [32]，xpg:(買權8賣權8)x2，mpg:(買權結算價8賣權結算價8)x2

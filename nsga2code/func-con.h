@@ -59,11 +59,11 @@ void func(population *pop_ptr)
         // First fitness function  //f[0]:delta, f[1];gamma, f[2]:vega
 
         //3opt
-		/*
+		
         f[0] = fabs(value((double)x[0],0)+value((double)x[1],0)+value((double)x[2],0));
         f[1] = fabs(value((double)x[0],1)+value((double)x[1],1)+value((double)x[2],1));
         f[2] = fabs(value((double)x[0],2)+value((double)x[1],2)+value((double)x[2],2));
-		*/
+		
         //4opt
         /*
         f[0] = fabs(value((double)x[0],0)+value((double)x[1],0)+value((double)x[2],0)+value((double)x[3],0));
@@ -77,11 +77,11 @@ void func(population *pop_ptr)
         f[2] = fabs(value((double)x[0],2)+value((double)x[1],2)+value((double)x[2],2)+value((double)x[3],2)+value((double)x[4],2));
         */
         //6opt
-        
+        /*
         f[0] = fabs(value((double)x[0],0)+value((double)x[1],0)+value((double)x[2],0)+value((double)x[3],0)+value((double)x[4],0)+value((double)x[5],0));
         f[1] = fabs(value((double)x[0],1)+value((double)x[1],1)+value((double)x[2],1)+value((double)x[3],1)+value((double)x[4],1)+value((double)x[5],1));
         f[2] = fabs(value((double)x[0],2)+value((double)x[1],2)+value((double)x[2],2)+value((double)x[3],2)+value((double)x[4],2)+value((double)x[5],2));
-        
+        */
         //7opt
         /*
         f[0] = fabs(value((double)x[0],0)+value((double)x[1],0)+value((double)x[2],0)+value((double)x[3],0)+value((double)x[4],0)+value((double)x[5],0)+value((double)x[6],0));
@@ -92,10 +92,14 @@ void func(population *pop_ptr)
         /*
         f[0] = fabs(value((double)x[0],0)+value((double)x[1],0)+value((double)x[2],0)+value((double)x[3],0)+value((double)x[4],0)+value((double)x[5],0)+value((double)x[6],0)+value((double)x[7],0));
         f[1] = fabs(value((double)x[0],1)+value((double)x[1],1)+value((double)x[2],1)+value((double)x[3],1)+value((double)x[4],1)+value((double)x[5],1)+value((double)x[6],1)+value((double)x[7],1));
-        f[2] = fabs(value((double)x[0],2)+value((double)x[1],2)+value((double)x[2],2)+value((double)x[3],2)+value((double)x[4],2)+value((double)x[5],2)+value((double)x[6],2
+        f[2] = fabs(value((double)x[0],2)+value((double)x[1],2)+value((double)x[2],2)+value((double)x[3],2)+value((double)x[4],2)+value((double)x[5],2)+value((double)x[6],2)+value((double)x[7],2));
         */
-
-
+		//9opt
+		/*
+        f[0] = fabs(value((double)x[0],0)+value((double)x[1],0)+value((double)x[2],0)+value((double)x[3],0)+value((double)x[4],0)+value((double)x[5],0)+value((double)x[6],0)+value((double)x[7],0)+value((double)x[8],0));
+        f[1] = fabs(value((double)x[0],1)+value((double)x[1],1)+value((double)x[2],1)+value((double)x[3],1)+value((double)x[4],1)+value((double)x[5],1)+value((double)x[6],1)+value((double)x[7],1)+value((double)x[8],1));
+        f[2] = fabs(value((double)x[0],2)+value((double)x[1],2)+value((double)x[2],2)+value((double)x[3],2)+value((double)x[4],2)+value((double)x[5],2)+value((double)x[6],2)+value((double)x[7],2)+value((double)x[8],2));
+		*/
 
 
 
@@ -218,7 +222,7 @@ double value(double x,int w)
         {
 			
 			//printf("minus : %lf\n",fabs(C - mktp));
-			if(fabs(C - mktp) < 1) break;
+			
             d1 = (log(S0/X)+(r-q+pow(sigma,2)/2)*t)/(sigma*sqrt(t));
             d2 = d1 - sigma * sqrt(t);
             C = S0 * exp(-q*t)*CND(d1)-X*exp(-r*t)*CND(d2);
