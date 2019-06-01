@@ -95,18 +95,21 @@ typedef unsigned int bool;
 #define true 1
 double d1,d2,del,gam,veg;
 double r = 0.01035;
-double todate = 15.0;//距到期日 交易日11/1
+double todate = 14.0;//距到期日(11/21) 交易日11/7
 double totday = 252.0;
-double t = 15.0/252.0;//11/2: 19.0， 11/3: 18.0
+double t = 14.0/252.0;//11/2: 19.0， 11/3: 18.0,11/6: 15,11/7:14
 double q = 0.0;
-double S0 = 9906.59;//11/2:9844.74，11/5:9906.59
+double S0 = 9824.95;//11/2:9844.74，11/5:9906.59, 11/6:9889.81,11/7:9824.95
 //0401 因增加short運算 由[16] 改為 [32]，xpg:(買權8賣權8)x2，mpg:(買權結算價8賣權結算價8)x2
 
 
-double xpg[32] = {9600.0,9700.0,9800.0,9900.0,10000.0,10100.0,10200.0,10300.0,9000.0,9100.0,9200.0,9300.0,9400.0,9500.0,9600.0,9700.0,9600.0,9700.0,9800.0,9900.0,10000.0,10100.0,10200.0,10300.0,9000.0,9100.0,9200.0,9300.0,9400.0,9500.0,9600.0,9700.0};
+//double xpg[32] = {9600.0,9700.0,9800.0,9900.0,10000.0,10100.0,10200.0,10300.0,9000.0,9100.0,9200.0,9300.0,9400.0,9500.0,9600.0,9700.0,9600.0,9700.0,9800.0,9900.0,10000.0,10100.0,10200.0,10300.0,9000.0,9100.0,9200.0,9300.0,9400.0,9500.0,9600.0,9700.0};
+double xpg[32] = {9700.0,9800.0,9900.0,10000.0,10100.0,10200.0,10300.0,10400.0,9200.0,9300.0,9400.0,9500.0,9600.0,9700.0,9800.0,9900.0,9700.0,9800.0,9900.0,10000.0,10100.0,10200.0,10300.0,10400.0,9200.0,9300.0,9400.0,9500.0,9600.0,9700.0,9800.0,9900.0};
+
 //double mpg[32] = {302.0,232.0,173.0,123.0,80.0,51.0,31.0,18.0,31.5,37.5,45.0,56.0,70.0,91.0,114.0,145.0,302.0,232.0,173.0,123.0,80.0,51.0,31.0,18.0,31.5,37.5,45.0,56.0,70.0,91.0,114.0,145.0};//11/1
 //double mpg[32] = {359.0,283.0,215.0,157.0,105.0,67.0,41.0,23.5,24.0,28.5,35.5,42.5,53.0,67.0,86.0,111.0,359.0,283.0,215.0,157.0,105.0,67.0,41.0,23.5,24.0,28.5,35.5,42.5,53.0,67.0,86.0,111.0};//11/2
-double mpg[32] = {313.0,245.0,183.0,128.0,84.0,52.0,30.5,17.0,27.5,33.0,40.0,49.0,61.0,78.0,101.0,127.0,313.0,245.0,183.0,128.0,84.0,52.0,30.5,17.0,27.5,33.0,40.0,49.0,61.0,78.0,101.0,127.0};//11/5
+//double mpg[32] = {289.0,220.0,158.0,108.0,69.0,41.5,24.0,13.0,30.0,36.0,44.0,54.0,68.0,89.0,113.0,144.0,289.0,220.0,158.0,108.0,69.0,41.5,24.0,13.0,30.0,36.0,44.0,54.0,68.0,89.0,113.0,144.0};//11/6
+double mpg[32] = {245.0,173.0,115.0,71.0,40.0,21.0,11.0,5.4,26.5,33.5,42.0,55.0,72.0,94.0,126.0,167.0,245.0,173.0,115.0,71.0,40.0,21.0,11.0,5.4,26.5,33.5,42.0,55.0,72.0,94.0,126.0,167.0};//11/7
 
 #define numInOnePortfolio 3 //一個交易組合所持有之不同選擇權檔數
 
@@ -214,7 +217,10 @@ main()
     *rep2_ptr,
     *end_ptr,
     *g_var,
-    *lastit;
+    *lastit,
+	//0531 new 
+	*fts_ptr,
+	*opt3,*opt4,*opt5,*opt6,*opt7,*opt8,*opt9;
     /*File Pointers*/
 
     rep_ptr = fopen("output.out","w");
@@ -223,6 +229,16 @@ main()
     end_ptr = fopen("final_fitness.out","w");
     g_var = fopen("final_var.out","w");
     lastit = fopen("plot.out","w");
+	//fts_ptr = fopen("fitness_variable.txt","w");
+	
+	//0601 new
+	opt3 = fopen("opt3_o.txt","a");
+	opt4 = fopen("opt4_o.txt","a");
+	opt5 = fopen("opt5_o.txt","a");
+	opt6 = fopen("opt6_o.txt","a");
+	opt7 = fopen("opt7_o.txt","a");
+	opt8 = fopen("opt8_o.txt","a");
+	opt9 = fopen("opt9_o.txt","a");
     /*Opening the files*/
 
     old_pop_ptr = &(oldpop);
@@ -459,7 +475,33 @@ main()
                 if ((old_pop_ptr->ind_ptr->error <= 0.0) && (old_pop_ptr->ind_ptr->rank == 1))  // for all feasible solutions and non-dominated solutions
                 {
                     for(l = 0; l < nfunc; l++)
-                        fprintf(end_ptr,"%f\t",old_pop_ptr->ind_ptr->fitness[l]);
+					{
+						fprintf(end_ptr,"%f\t",old_pop_ptr->ind_ptr->fitness[l]);
+						//0601
+						if(nchrom==3){
+							fprintf(opt3,"%f\t",old_pop_ptr->ind_ptr->fitness[l]);
+						}
+						else if(nchrom==4){
+							fprintf(opt4,"%f\t",old_pop_ptr->ind_ptr->fitness[l]);
+						}
+						else if(nchrom==5){
+							fprintf(opt5,"%f\t",old_pop_ptr->ind_ptr->fitness[l]);
+						}
+						else if(nchrom==6){
+							fprintf(opt6,"%f\t",old_pop_ptr->ind_ptr->fitness[l]);
+						}
+						else if(nchrom==7){
+							fprintf(opt7,"%f\t",old_pop_ptr->ind_ptr->fitness[l]);
+						}
+						else if(nchrom==8){
+							fprintf(opt8,"%f\t",old_pop_ptr->ind_ptr->fitness[l]);
+						}
+						else if(nchrom==9){
+							fprintf(opt9,"%f\t",old_pop_ptr->ind_ptr->fitness[l]);
+						}
+						
+					}
+                        
                     for(l = 0; l < ncons; l++)
                     {
                         fprintf(end_ptr,"%f\t",old_pop_ptr->ind_ptr->constr[l]);
@@ -485,6 +527,29 @@ main()
                         }
                     }
                     fprintf(g_var,"\n");
+					//06061
+					if(nchrom==3){
+							fprintf(opt3,"%d\n",nchrom);
+						}
+						else if(nchrom==4){
+							fprintf(opt4,"%d\n",nchrom);
+						}
+						else if(nchrom==5){
+							fprintf(opt5,"%d\n",nchrom);
+						}
+						else if(nchrom==6){
+							fprintf(opt6,"%d\n",nchrom);
+						}
+						else if(nchrom==7){
+							fprintf(opt7,"%d\n",nchrom);
+						}
+						else if(nchrom==8){
+							fprintf(opt8,"%d\n",nchrom);
+						}
+						else if(nchrom==9){
+							fprintf(opt9,"%d\n",nchrom);
+						}
+					
                 }  // feasibility check
             } // end of f (printing)
 
@@ -508,6 +573,14 @@ main()
     fclose(end_ptr);
     fclose(g_var);
     fclose(lastit);
+	
+	fclose(opt3);
+	fclose(opt4);
+	fclose(opt5);
+	fclose(opt6);
+	fclose(opt7);
+	fclose(opt8);
+	fclose(opt8);
 }
 
 
