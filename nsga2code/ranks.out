@@ -1,113 +1,123 @@
 --------RANK AT GENERATION 1--------------
 Rank old ranks   new ranks     rankratio
- 1	  3		 4	 0.571429
- 2	  7		 9	 0.562500
- 3	  3		 6	 0.666667
- 4	  3		 6	 0.666667
- 5	  1		 6	 0.857143
- 6	  9		 2	 0.181818
- 7	  3		 1	 0.250000
- 8	  6		 10	 0.625000
- 9	  7		 6	 0.461538
- 10	  4		 0	 0.000000
- 11	  3		 0	 0.000000
- 12	  1		 0	 0.000000
+ 1	  5		 2	 0.285714
+ 2	  3		 3	 0.500000
+ 3	  3		 4	 0.571429
+ 4	  5		 4	 0.444444
+ 5	  4		 4	 0.500000
+ 6	  2		 3	 0.600000
+ 7	  2		 4	 0.666667
+ 8	  7		 5	 0.416667
+ 9	  7		 5	 0.416667
+ 10	  6		 5	 0.454545
+ 11	  3		 2	 0.400000
+ 12	  2		 5	 0.714286
+ 13	  1		 4	 0.800000
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 2--------------
 Rank old ranks   new ranks     rankratio
- 1	  4		 4	 0.500000
- 2	  9		 13	 0.590909
- 3	  6		 6	 0.500000
- 4	  6		 9	 0.600000
- 5	  6		 7	 0.538462
- 6	  2		 5	 0.714286
- 7	  1		 6	 0.857143
- 8	  10		 10	 0.500000
- 9	  6		 6	 0.500000
+ 1	  2		 3	 0.600000
+ 2	  3		 4	 0.571429
+ 3	  4		 4	 0.500000
+ 4	  4		 8	 0.666667
+ 5	  4		 7	 0.636364
+ 6	  3		 6	 0.666667
+ 7	  4		 4	 0.500000
+ 8	  5		 5	 0.500000
+ 9	  5		 9	 0.642857
+ 10	  5		 0	 0.000000
+ 11	  2		 2	 0.500000
+ 12	  5		 5	 0.500000
+ 13	  4		 4	 0.500000
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 3--------------
 Rank old ranks   new ranks     rankratio
- 1	  4		 8	 0.666667
- 2	  13		 8	 0.380952
- 3	  6		 13	 0.684211
- 4	  9		 12	 0.571429
+ 1	  3		 8	 0.727273
+ 2	  4		 8	 0.666667
+ 3	  4		 6	 0.600000
+ 4	  8		 12	 0.600000
  5	  7		 9	 0.562500
- 6	  5		 0	 0.000000
- 7	  6		 6	 0.500000
+ 6	  6		 7	 0.538462
+ 7	  4		 4	 0.500000
+ 8	  5		 5	 0.500000
+ 9	  9		 9	 0.500000
+ 10	  0		 0	 -1.#IND00
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 4--------------
 Rank old ranks   new ranks     rankratio
  1	  8		 11	 0.578947
- 2	  8		 11	 0.578947
- 3	  13		 17	 0.566667
- 4	  12		 11	 0.478261
- 5	  9		 9	 0.500000
- 6	  0		 0	 -1.#IND00
+ 2	  8		 12	 0.600000
+ 3	  6		 7	 0.538462
+ 4	  12		 14	 0.538462
+ 5	  9		 6	 0.400000
+ 6	  7		 7	 0.500000
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 5--------------
 Rank old ranks   new ranks     rankratio
- 1	  11		 13	 0.541667
- 2	  11		 17	 0.607143
- 3	  17		 19	 0.527778
- 4	  11		 1	 0.083333
+ 1	  11		 11	 0.500000
+ 2	  12		 13	 0.520000
+ 3	  7		 9	 0.562500
+ 4	  14		 7	 0.333333
+ 5	  6		 10	 0.625000
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 6--------------
 Rank old ranks   new ranks     rankratio
- 1	  13		 13	 0.500000
- 2	  17		 13	 0.433333
- 3	  19		 17	 0.472222
- 4	  1		 7	 0.875000
+ 1	  11		 17	 0.607143
+ 2	  13		 13	 0.500000
+ 3	  9		 10	 0.526316
+ 4	  7		 9	 0.562500
+ 5	  10		 1	 0.090909
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 7--------------
 Rank old ranks   new ranks     rankratio
- 1	  13		 14	 0.518519
- 2	  13		 16	 0.551724
- 3	  17		 18	 0.514286
- 4	  7		 2	 0.222222
+ 1	  17		 19	 0.527778
+ 2	  13		 12	 0.480000
+ 3	  10		 13	 0.565217
+ 4	  9		 6	 0.400000
+ 5	  1		 1	 0.500000
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 8--------------
 Rank old ranks   new ranks     rankratio
- 1	  14		 18	 0.562500
- 2	  16		 20	 0.555556
- 3	  18		 12	 0.400000
- 4	  2		 2	 0.500000
+ 1	  19		 29	 0.604167
+ 2	  12		 13	 0.520000
+ 3	  13		 8	 0.380952
+ 4	  6		 6	 0.500000
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 9--------------
 Rank old ranks   new ranks     rankratio
- 1	  18		 20	 0.526316
- 2	  20		 28	 0.583333
- 3	  12		 2	 0.142857
+ 1	  29		 32	 0.524590
+ 2	  13		 14	 0.518519
+ 3	  8		 4	 0.333333
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 10--------------
 Rank old ranks   new ranks     rankratio
- 1	  20		 22	 0.523810
- 2	  28		 28	 0.500000
- 3	  2		 2	 0.500000
+ 1	  32		 29	 0.475410
+ 2	  14		 18	 0.562500
+ 3	  4		 3	 0.428571
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 11--------------
 Rank old ranks   new ranks     rankratio
- 1	  22		 26	 0.541667
- 2	  28		 24	 0.461538
+ 1	  29		 37	 0.560606
+ 2	  18		 13	 0.419355
+ 3	  3		 3	 0.500000
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 12--------------
-Rank old ranks   new ranks     rankratio
- 1	  26		 31	 0.543860
- 2	  24		 19	 0.441860
------------------Rank Ratio-------------------
---------RANK AT GENERATION 13--------------
-Rank old ranks   new ranks     rankratio
- 1	  31		 37	 0.544118
- 2	  19		 13	 0.406250
------------------Rank Ratio-------------------
---------RANK AT GENERATION 14--------------
 Rank old ranks   new ranks     rankratio
  1	  37		 45	 0.548781
  2	  13		 5	 0.277778
 -----------------Rank Ratio-------------------
---------RANK AT GENERATION 15--------------
+--------RANK AT GENERATION 13--------------
 Rank old ranks   new ranks     rankratio
  1	  45		 50	 0.526316
  2	  5		 5	 0.500000
+-----------------Rank Ratio-------------------
+--------RANK AT GENERATION 14--------------
+Rank old ranks   new ranks     rankratio
+ 1	  50		 50	 0.500000
+-----------------Rank Ratio-------------------
+--------RANK AT GENERATION 15--------------
+Rank old ranks   new ranks     rankratio
+ 1	  50		 50	 0.500000
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 16--------------
 Rank old ranks   new ranks     rankratio
@@ -115,52 +125,47 @@ Rank old ranks   new ranks     rankratio
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 17--------------
 Rank old ranks   new ranks     rankratio
- 1	  50		 27	 0.350649
- 2	  5		 23	 0.821429
+ 1	  50		 50	 0.500000
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 18--------------
 Rank old ranks   new ranks     rankratio
- 1	  27		 38	 0.584615
- 2	  23		 12	 0.342857
+ 1	  50		 50	 0.500000
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 19--------------
 Rank old ranks   new ranks     rankratio
- 1	  38		 47	 0.552941
- 2	  12		 3	 0.200000
+ 1	  50		 50	 0.500000
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 20--------------
 Rank old ranks   new ranks     rankratio
- 1	  47		 50	 0.515464
- 2	  3		 3	 0.500000
+ 1	  50		 49	 0.494949
+ 2	  5		 1	 0.166667
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 21--------------
-Rank old ranks   new ranks     rankratio
- 1	  50		 44	 0.468085
- 2	  3		 6	 0.666667
------------------Rank Ratio-------------------
---------RANK AT GENERATION 22--------------
-Rank old ranks   new ranks     rankratio
- 1	  44		 49	 0.526882
- 2	  6		 1	 0.142857
------------------Rank Ratio-------------------
---------RANK AT GENERATION 23--------------
 Rank old ranks   new ranks     rankratio
  1	  49		 50	 0.505050
  2	  1		 1	 0.500000
 -----------------Rank Ratio-------------------
---------RANK AT GENERATION 24--------------
+--------RANK AT GENERATION 22--------------
 Rank old ranks   new ranks     rankratio
  1	  50		 50	 0.500000
 -----------------Rank Ratio-------------------
+--------RANK AT GENERATION 23--------------
+Rank old ranks   new ranks     rankratio
+ 1	  50		 48	 0.489796
+ 2	  1		 2	 0.666667
+-----------------Rank Ratio-------------------
+--------RANK AT GENERATION 24--------------
+Rank old ranks   new ranks     rankratio
+ 1	  48		 50	 0.510204
+ 2	  2		 2	 0.500000
+-----------------Rank Ratio-------------------
 --------RANK AT GENERATION 25--------------
 Rank old ranks   new ranks     rankratio
- 1	  50		 46	 0.479167
- 2	  1		 4	 0.800000
+ 1	  50		 50	 0.500000
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 26--------------
 Rank old ranks   new ranks     rankratio
- 1	  46		 50	 0.520833
- 2	  4		 4	 0.500000
+ 1	  50		 50	 0.500000
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 27--------------
 Rank old ranks   new ranks     rankratio
@@ -176,51 +181,47 @@ Rank old ranks   new ranks     rankratio
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 30--------------
 Rank old ranks   new ranks     rankratio
- 1	  50		 50	 0.500000
+ 1	  50		 46	 0.479167
+ 2	  2		 4	 0.666667
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 31--------------
 Rank old ranks   new ranks     rankratio
- 1	  50		 50	 0.500000
+ 1	  46		 41	 0.471264
+ 2	  4		 9	 0.692308
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 32--------------
 Rank old ranks   new ranks     rankratio
- 1	  50		 50	 0.500000
- 2	  4		 0	 0.000000
+ 1	  41		 45	 0.523256
+ 2	  9		 5	 0.357143
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 33--------------
 Rank old ranks   new ranks     rankratio
- 1	  50		 50	 0.500000
- 2	  0		 0	 -1.#IND00
+ 1	  45		 50	 0.526316
+ 2	  5		 5	 0.500000
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 34--------------
 Rank old ranks   new ranks     rankratio
- 1	  50		 44	 0.468085
- 2	  0		 6	 1.000000
+ 1	  50		 50	 0.500000
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 35--------------
 Rank old ranks   new ranks     rankratio
- 1	  44		 50	 0.531915
- 2	  6		 0	 0.000000
+ 1	  50		 50	 0.500000
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 36--------------
 Rank old ranks   new ranks     rankratio
  1	  50		 50	 0.500000
- 2	  0		 0	 -1.#IND00
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 37--------------
 Rank old ranks   new ranks     rankratio
- 1	  50		 43	 0.462366
- 2	  0		 7	 1.000000
+ 1	  50		 50	 0.500000
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 38--------------
 Rank old ranks   new ranks     rankratio
- 1	  43		 40	 0.481928
- 2	  7		 10	 0.588235
+ 1	  50		 50	 0.500000
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 39--------------
 Rank old ranks   new ranks     rankratio
- 1	  40		 50	 0.555556
- 2	  10		 10	 0.500000
+ 1	  50		 50	 0.500000
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 40--------------
 Rank old ranks   new ranks     rankratio
@@ -273,17 +274,14 @@ Rank old ranks   new ranks     rankratio
 --------RANK AT GENERATION 52--------------
 Rank old ranks   new ranks     rankratio
  1	  50		 50	 0.500000
- 2	  10		 0	 0.000000
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 53--------------
 Rank old ranks   new ranks     rankratio
  1	  50		 50	 0.500000
- 2	  0		 0	 -1.#IND00
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 54--------------
 Rank old ranks   new ranks     rankratio
  1	  50		 50	 0.500000
- 2	  0		 0	 -1.#IND00
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 55--------------
 Rank old ranks   new ranks     rankratio
@@ -295,11 +293,13 @@ Rank old ranks   new ranks     rankratio
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 57--------------
 Rank old ranks   new ranks     rankratio
- 1	  50		 50	 0.500000
+ 1	  50		 43	 0.462366
+ 2	  5		 7	 0.583333
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 58--------------
 Rank old ranks   new ranks     rankratio
- 1	  50		 50	 0.500000
+ 1	  43		 50	 0.537634
+ 2	  7		 7	 0.500000
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 59--------------
 Rank old ranks   new ranks     rankratio
@@ -543,21 +543,21 @@ Rank old ranks   new ranks     rankratio
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 119--------------
 Rank old ranks   new ranks     rankratio
- 1	  50		 50	 0.500000
+ 1	  50		 47	 0.484536
+ 2	  7		 3	 0.300000
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 120--------------
 Rank old ranks   new ranks     rankratio
- 1	  50		 50	 0.500000
+ 1	  47		 50	 0.515464
+ 2	  3		 3	 0.500000
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 121--------------
 Rank old ranks   new ranks     rankratio
- 1	  50		 47	 0.484536
- 2	  0		 3	 1.000000
+ 1	  50		 50	 0.500000
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 122--------------
 Rank old ranks   new ranks     rankratio
- 1	  47		 50	 0.515464
- 2	  3		 3	 0.500000
+ 1	  50		 50	 0.500000
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 123--------------
 Rank old ranks   new ranks     rankratio
@@ -601,18 +601,15 @@ Rank old ranks   new ranks     rankratio
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 133--------------
 Rank old ranks   new ranks     rankratio
- 1	  50		 44	 0.468085
- 2	  3		 6	 0.666667
+ 1	  50		 50	 0.500000
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 134--------------
 Rank old ranks   new ranks     rankratio
- 1	  44		 46	 0.511111
- 2	  6		 4	 0.400000
+ 1	  50		 50	 0.500000
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 135--------------
 Rank old ranks   new ranks     rankratio
- 1	  46		 50	 0.520833
- 2	  4		 4	 0.500000
+ 1	  50		 50	 0.500000
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 136--------------
 Rank old ranks   new ranks     rankratio
@@ -693,10 +690,12 @@ Rank old ranks   new ranks     rankratio
 --------RANK AT GENERATION 155--------------
 Rank old ranks   new ranks     rankratio
  1	  50		 50	 0.500000
+ 2	  3		 0	 0.000000
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 156--------------
 Rank old ranks   new ranks     rankratio
  1	  50		 50	 0.500000
+ 2	  0		 0	 -1.#IND00
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 157--------------
 Rank old ranks   new ranks     rankratio
@@ -860,11 +859,13 @@ Rank old ranks   new ranks     rankratio
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 197--------------
 Rank old ranks   new ranks     rankratio
- 1	  50		 50	 0.500000
+ 1	  50		 48	 0.489796
+ 2	  0		 2	 1.000000
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 198--------------
 Rank old ranks   new ranks     rankratio
- 1	  50		 50	 0.500000
+ 1	  48		 50	 0.510204
+ 2	  2		 2	 0.500000
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 199--------------
 Rank old ranks   new ranks     rankratio
@@ -884,18 +885,15 @@ Rank old ranks   new ranks     rankratio
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 203--------------
 Rank old ranks   new ranks     rankratio
- 1	  50		 45	 0.473684
- 2	  4		 5	 0.555556
+ 1	  50		 50	 0.500000
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 204--------------
 Rank old ranks   new ranks     rankratio
- 1	  45		 48	 0.516129
- 2	  5		 2	 0.285714
+ 1	  50		 50	 0.500000
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 205--------------
 Rank old ranks   new ranks     rankratio
- 1	  48		 50	 0.510204
- 2	  2		 2	 0.500000
+ 1	  50		 50	 0.500000
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 206--------------
 Rank old ranks   new ranks     rankratio
@@ -908,12 +906,10 @@ Rank old ranks   new ranks     rankratio
 --------RANK AT GENERATION 208--------------
 Rank old ranks   new ranks     rankratio
  1	  50		 50	 0.500000
- 2	  2		 0	 0.000000
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 209--------------
 Rank old ranks   new ranks     rankratio
  1	  50		 50	 0.500000
- 2	  0		 0	 -1.#IND00
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 210--------------
 Rank old ranks   new ranks     rankratio
@@ -1006,10 +1002,12 @@ Rank old ranks   new ranks     rankratio
 --------RANK AT GENERATION 232--------------
 Rank old ranks   new ranks     rankratio
  1	  50		 50	 0.500000
+ 2	  2		 0	 0.000000
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 233--------------
 Rank old ranks   new ranks     rankratio
  1	  50		 50	 0.500000
+ 2	  0		 0	 -1.#IND00
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 234--------------
 Rank old ranks   new ranks     rankratio
@@ -1886,14 +1884,17 @@ Rank old ranks   new ranks     rankratio
 --------RANK AT GENERATION 452--------------
 Rank old ranks   new ranks     rankratio
  1	  50		 50	 0.500000
+ 2	  0		 0	 -1.#IND00
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 453--------------
 Rank old ranks   new ranks     rankratio
  1	  50		 50	 0.500000
+ 2	  0		 0	 -1.#IND00
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 454--------------
 Rank old ranks   new ranks     rankratio
  1	  50		 50	 0.500000
+ 2	  0		 0	 -1.#IND00
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 455--------------
 Rank old ranks   new ranks     rankratio
@@ -1926,12 +1927,10 @@ Rank old ranks   new ranks     rankratio
 --------RANK AT GENERATION 462--------------
 Rank old ranks   new ranks     rankratio
  1	  50		 50	 0.500000
- 2	  0		 0	 -1.#IND00
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 463--------------
 Rank old ranks   new ranks     rankratio
  1	  50		 50	 0.500000
- 2	  0		 0	 -1.#IND00
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 464--------------
 Rank old ranks   new ranks     rankratio
@@ -2028,12 +2027,10 @@ Rank old ranks   new ranks     rankratio
 --------RANK AT GENERATION 487--------------
 Rank old ranks   new ranks     rankratio
  1	  50		 50	 0.500000
- 2	  0		 0	 -1.#IND00
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 488--------------
 Rank old ranks   new ranks     rankratio
  1	  50		 50	 0.500000
- 2	  0		 0	 -1.#IND00
 -----------------Rank Ratio-------------------
 --------RANK AT GENERATION 489--------------
 Rank old ranks   new ranks     rankratio
